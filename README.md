@@ -1,10 +1,17 @@
 # Monzo-Google-Sheets
 Scripts to sync data betweeen a google sheet and Monzo account
 
+This script polls the API and inputs transaction data into a google spreadsheet. It also allows you to add your own custom categories (these will not appear in the Monzo iphone or android app).
+The scripts create a webhook which contains a random identifier (changed daily) as a basic check that any data received is genuine. This allows any new transactions you make to be added to the sheet instantly.
+
+The OAUTH process is also contained, once you have initially logged in and set everything up per the instructions below tokens should refresh when required automatically.
+
+If you have any problems drop me a line in the slack channel @andyl or the monzo community forums @Andy1
+
 Disclaimers:
 
 Some of the code is messy, poorly annotated and inneficient. Improvements will probably be made in time.
-If you use this code you are taking it 'as is'. I offer no guarantees to it's reliability or sutibility for your use.
+If you use this code you are taking it 'as is'. I offer no guarantees to it's reliability or sutibility for your use. But I will try to help you out.
 
 I'll be adding some spending per category / sub-category breakdowns sometime soon.
 
