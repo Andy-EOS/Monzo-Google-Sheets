@@ -6,6 +6,8 @@ Disclaimers:
 Some of the code is messy, poorly annotated and inneficient. Improvements will probably be made in time.
 If you use this code you are taking it 'as is'. I offer no guarantees to it's reliability or sutibility for your use.
 
+I'll be adding some spending per category / sub-category breakdowns sometime soon.
+
 I have not included the spreadsheet itself as it still needs work.
 
 Instructions:
