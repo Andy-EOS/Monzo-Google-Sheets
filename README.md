@@ -10,7 +10,7 @@ I have not included the spreadsheet itself as it still needs work.
 
 Instructions:
 
-1.Copy ALL files from github into script files (open a google sheet ---> tools ----> script editor
+1. Copy ALL files from github into script files (open a google sheet ---> tools ----> script editor
 
 2. Publish your script as a web app.
 
@@ -18,7 +18,7 @@ Instructions:
 
 4. Populate and run the 'setInitial()' function and run it. Allow the permissions.
 
-5.In the OAUTH file run the 'returnURL()' function. When it finished go View---> Logs. Copy then entire URL into a new browser tab.
+5. In the OAUTH file run the 'returnURL()' function. When it finished go View---> Logs. Copy then entire URL into a new browser tab.
 
 6. You should end up at a Monzo auth screen, follow the instructions there.
 
