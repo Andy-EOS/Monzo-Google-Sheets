@@ -24,6 +24,7 @@ Instructions:
 2. Publish your script as a web app.
 
 3. Create a client on the monzo developer tools page, the redirect URL is the address of the published script.
+    Note: the created client must be a confidential client as Monzo will not allow non-confidential clients to refresh tokens.
 
 4. Populate and run the 'setInitial()' function and run it. Allow the permissions.
 
