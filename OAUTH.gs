@@ -25,7 +25,7 @@ function returnURL() {
 
   
 // Generate the URL and log it for copying into a browser  
-  var url = 'https://auth.getmondo.co.uk/?client_id='+client_id+'&redirect_uri='+redirect_uri+'&response_type=code&state='+state_token;
+  var url = 'https://auth.monzo.com/?client_id='+client_id+'&redirect_uri='+redirect_uri+'&response_type=code&state='+state_token;
   
   Logger.log(url)
   return(0);
